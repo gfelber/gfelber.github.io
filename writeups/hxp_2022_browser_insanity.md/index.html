@@ -1,0 +1,30 @@
+<!doctype html>
+<html>
+  <head>
+    <meta name="description" content="browser-insanity is a pwn challenge that requires you to exploit a browser from a niche custom x86-32 Kernel called [KolibriOS](http://kolibrios.org/en/). The default Browser in KolibriOS called Webview only supports html.  Looking into the [source code](https://repo.or.cz/kolibrios.git/tree/7fc85957a89671d27f48181d15e386cd83ee7f1a) shows that there is an issue on how html tags are parsed. This allows us to create an indefinite recursion which actually overflows into executed code. This is possi" />
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+    <script src="/index.js"></script>
+    <link rel="stylesheet" type="text/css" href="/main.css" />
+    <link rel="stylesheet" type="text/css" href="/font.css" />
+    <link rel="stylesheet" type="text/css" href="/xterm.css" />
+  </head>
+  <body>
+
+    <noscript>
+      This page contains webassembly and javascript content, please enable
+      javascript in your browser.
+    </noscript>
+
+    <div id="terminal">$</div>
+
+    <div id="command-suggestions" class="command-suggestions">
+      <button class="cmd-btn" data-cmd="/">/</button>
+      <button class="cmd-btn" data-cmd="clear">clear</button>
+      <button class="cmd-btn" data-cmd="less">less</button>
+      <button class="cmd-btn" data-cmd="whereis">whereis</button>
+      <button class="cmd-btn" data-cmd="whoami">whoami</button>
+    </div>
+
+  </body>
+</html>
