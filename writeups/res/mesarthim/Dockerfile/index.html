@@ -1,6 +1,7 @@
 <!doctype html>
 <html>
   <head>
+    <meta name="description" content="```Dockerfile FROM alpine:3.22@sha256:4bcff63911fcb4448bd4fdacec207030997caf25e9bea4045fa6c8c44de311d1 RUN mkdir -p /opt/mesarthim WORKDIR /opt/mesarthim COPY share/run.sh . COPY share/mesarthim . COPY share/mesarthim_deploy . RUN touch flag RUN adduser -HD ctf RUN chown ctf:ctf flag RUN chattr +a flag USER ctf EXPOSE 5000 CMD [&quot;./run.sh&quot;] ```" />
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
     <script src="/index.js"></script>
@@ -18,11 +19,11 @@
     <div id="terminal">$</div>
 
     <div id="command-suggestions" class="command-suggestions">
-      <button class="cmd-btn" data-cmd="/">clear</button>
+      <button class="cmd-btn" data-cmd="/">/</button>
       <button class="cmd-btn" data-cmd="clear">clear</button>
-      <button class="cmd-btn" data-cmd="less">clear</button>
-      <button class="cmd-btn" data-cmd="whereis">clear</button>
-      <button class="cmd-btn" data-cmd="whoami">clear</button>
+      <button class="cmd-btn" data-cmd="less">less</button>
+      <button class="cmd-btn" data-cmd="whereis">whereis</button>
+      <button class="cmd-btn" data-cmd="whoami">whoami</button>
     </div>
 
   </body>

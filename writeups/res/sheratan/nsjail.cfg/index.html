@@ -1,6 +1,7 @@
 <!doctype html>
 <html>
   <head>
+    <meta name="description" content="``` name: &quot;sheratan-nsjail-configuration&quot; description: &quot;sheratan nsjail configuration&quot; mode: ONCE log_level: ERROR clone_newnet: true no_pivotroot: true uidmap {inside_id: &quot;33&quot;} gidmap {inside_id: &quot;33&quot;} rlimit_as_type: HARD rlimit_nofile_type: HARD rlimit_nproc_type: HARD rlimit_cpu_type: INF time_limit: 3600 rlimit_fsize: 20 # in MB skip_setsid: true mount: [ { src: &quot;/chroot&quot; dst: &quot;/&quot; is_bind: true }, { dst: &quot;/tmp&quot; fstype: &quot;tmpfs&quot; rw: true }, { dst: &quot;/run&quot; fstype: &quot;tmpfs&quot; rw: true }, { dst: &quot;/d" />
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
     <script src="/index.js"></script>
@@ -18,11 +19,11 @@
     <div id="terminal">$</div>
 
     <div id="command-suggestions" class="command-suggestions">
-      <button class="cmd-btn" data-cmd="/">clear</button>
+      <button class="cmd-btn" data-cmd="/">/</button>
       <button class="cmd-btn" data-cmd="clear">clear</button>
-      <button class="cmd-btn" data-cmd="less">clear</button>
-      <button class="cmd-btn" data-cmd="whereis">clear</button>
-      <button class="cmd-btn" data-cmd="whoami">clear</button>
+      <button class="cmd-btn" data-cmd="less">less</button>
+      <button class="cmd-btn" data-cmd="whereis">whereis</button>
+      <button class="cmd-btn" data-cmd="whoami">whoami</button>
     </div>
 
   </body>

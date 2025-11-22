@@ -1,6 +1,7 @@
 <!doctype html>
 <html>
   <head>
+    <meta name="description" content="```c /******************************* * EXPLOIT                     * *******************************/ int init_sheratan() { return SYSCHK(open(PROC_NAME, O_RDWR)); } void sheratan_push(int sheratan_fd, enum sheratan_cmds cmd) { struct sheratan_param param = {.cmd = cmd}; SYSCHK(ioctl(sheratan_fd, SHERATAN_IOCTL_PUSH, &amp;param)); } enum sheratan_cmds sheratan_pop(int sheratan_fd) { struct sheratan_param param; int ret = ioctl(sheratan_fd, SHERATAN_IOCTL_POP, &amp;param); if (ret &lt; 0) return -1; return" />
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
     <script src="/index.js"></script>
@@ -18,11 +19,11 @@
     <div id="terminal">$</div>
 
     <div id="command-suggestions" class="command-suggestions">
-      <button class="cmd-btn" data-cmd="/">clear</button>
+      <button class="cmd-btn" data-cmd="/">/</button>
       <button class="cmd-btn" data-cmd="clear">clear</button>
-      <button class="cmd-btn" data-cmd="less">clear</button>
-      <button class="cmd-btn" data-cmd="whereis">clear</button>
-      <button class="cmd-btn" data-cmd="whoami">clear</button>
+      <button class="cmd-btn" data-cmd="less">less</button>
+      <button class="cmd-btn" data-cmd="whereis">whereis</button>
+      <button class="cmd-btn" data-cmd="whoami">whoami</button>
     </div>
 
   </body>

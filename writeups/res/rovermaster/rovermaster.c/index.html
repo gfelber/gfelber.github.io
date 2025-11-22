@@ -1,6 +1,7 @@
 <!doctype html>
 <html>
   <head>
+    <meta name="description" content="```c // gcc main.c --no-pie -static -o main void cmd_get_planet(void); void cmd_set_planet(void); void cmd_get_name(void); void cmd_set_name(void); void cmd_move_rover(void); void cmd_full_info(void); struct rover { char weight; char x; char y; char z; char battery; char temperature; char planet[256]; char name[256]; void (*code)(void); } typedef rover; rover rovers[0xf] = { {0x96,0x00,0x00,0x00,0x19,0x64,&quot;Mars&quot;,&quot;Curiosity 2.0&quot;, NULL}, {0x78,0x0a,0x0f,0x01,0xf1,0x55,&quot;Europa&quot;,&quot;Ice Explorer&quot;, NULL" />
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
     <script src="/index.js"></script>
@@ -18,11 +19,11 @@
     <div id="terminal">$</div>
 
     <div id="command-suggestions" class="command-suggestions">
-      <button class="cmd-btn" data-cmd="/">clear</button>
+      <button class="cmd-btn" data-cmd="/">/</button>
       <button class="cmd-btn" data-cmd="clear">clear</button>
-      <button class="cmd-btn" data-cmd="less">clear</button>
-      <button class="cmd-btn" data-cmd="whereis">clear</button>
-      <button class="cmd-btn" data-cmd="whoami">clear</button>
+      <button class="cmd-btn" data-cmd="less">less</button>
+      <button class="cmd-btn" data-cmd="whereis">whereis</button>
+      <button class="cmd-btn" data-cmd="whoami">whoami</button>
     </div>
 
   </body>

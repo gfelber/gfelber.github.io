@@ -1,6 +1,7 @@
 <!doctype html>
 <html>
   <head>
+    <meta name="description" content="```c bool sheratan_status_init = false; struct sheratan_cmd *top_cmd = NULL; struct sheratan_status status = {}; static long sheratan_ioctl(struct file *filp, unsigned int cmd, unsigned long arg) { struct sheratan_param param; struct sheratan_cmd *current_cmd, **next_cmd; if (copy_from_user(&amp;param, (void __user *)arg, sizeof(param))) return -EFAULT; switch (cmd) { case SHERATAN_IOCTL_PUSH: pr_info(&quot;sheratan: push\n&quot;); if (param.cmd &lt; PING || param.cmd &gt; BOOST_DISABLE) return -EINVAL; current_cmd" />
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
     <script src="/index.js"></script>
@@ -18,11 +19,11 @@
     <div id="terminal">$</div>
 
     <div id="command-suggestions" class="command-suggestions">
-      <button class="cmd-btn" data-cmd="/">clear</button>
+      <button class="cmd-btn" data-cmd="/">/</button>
       <button class="cmd-btn" data-cmd="clear">clear</button>
-      <button class="cmd-btn" data-cmd="less">clear</button>
-      <button class="cmd-btn" data-cmd="whereis">clear</button>
-      <button class="cmd-btn" data-cmd="whoami">clear</button>
+      <button class="cmd-btn" data-cmd="less">less</button>
+      <button class="cmd-btn" data-cmd="whereis">whereis</button>
+      <button class="cmd-btn" data-cmd="whoami">whoami</button>
     </div>
 
   </body>
