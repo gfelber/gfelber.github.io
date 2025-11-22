@@ -1,97 +1,97 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
-    <loc>https://gfelber.dev/</loc>
+    <loc>https://www.gfelber.dev/</loc>
     <lastmod>2025-11-22</lastmod>
     <changefreq>weekly</changefreq>
     <priority>1.0</priority>
   </url>
   <url>
-    <loc>https://gfelber.dev/writeups/old/la_ctf_2024_woogie_boogie.md</loc>
-    <lastmod>2025-11-06</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  <url>
-    <loc>https://gfelber.dev/writeups/la_ctf_2024_woogie_boogie.md</loc>
-    <lastmod>2025-11-06</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  <url>
-    <loc>https://gfelber.dev/writeups/old/hitcon_22_the_hole</loc>
-    <lastmod>2025-11-07</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  <url>
-    <loc>https://gfelber.dev/writeups/hitcon_22_the_hole</loc>
-    <lastmod>2025-11-07</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  <url>
-    <loc>https://gfelber.dev/writeups/old/hxp_2022_browser_insanity.md</loc>
-    <lastmod>2025-11-06</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  <url>
-    <loc>https://gfelber.dev/writeups/hxp_2022_browser_insanity.md</loc>
-    <lastmod>2025-11-06</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  <url>
-    <loc>https://gfelber.dev/writeups/old/openECSC24_round1_rovermaster.md</loc>
-    <lastmod>2025-11-06</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  <url>
-    <loc>https://gfelber.dev/writeups/openECSC24_round1_rovermaster.md</loc>
-    <lastmod>2025-11-06</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  <url>
-    <loc>https://gfelber.dev/writeups/ctrl_space_sheratan.md</loc>
+    <loc>https://www.gfelber.dev/writeups/ctrl_space_mesarthim.md/</loc>
     <lastmod>2025-11-22</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
-    <loc>https://gfelber.dev/writeups/ctrl_space_mesarthim.md</loc>
+    <loc>https://www.gfelber.dev/writeups/ctrl_space_hamal.md/</loc>
     <lastmod>2025-11-22</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
-    <loc>https://gfelber.dev/writeups/ctrl_space_aries.md</loc>
+    <loc>https://www.gfelber.dev/writeups/ctrl_space_sheratan.md/</loc>
     <lastmod>2025-11-22</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
-    <loc>https://gfelber.dev/writeups/ctrl_space_hamal.md</loc>
+    <loc>https://www.gfelber.dev/writeups/ctrl_space_aries.md/</loc>
     <lastmod>2025-11-22</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
-    <loc>https://gfelber.dev/CVE/CVE-2024-23284</loc>
+    <loc>https://www.gfelber.dev/writeups/old/openECSC24_round1_rovermaster.md/</loc>
+    <lastmod>2025-11-06</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://www.gfelber.dev/writeups/openECSC24_round1_rovermaster.md</loc>
+    <lastmod>2025-11-06</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://www.gfelber.dev/writeups/old/hxp_2022_browser_insanity.md/</loc>
+    <lastmod>2025-11-06</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://www.gfelber.dev/writeups/hxp_2022_browser_insanity.md</loc>
+    <lastmod>2025-11-06</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://www.gfelber.dev/writeups/old/la_ctf_2024_woogie_boogie.md/</loc>
+    <lastmod>2025-11-06</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://www.gfelber.dev/writeups/la_ctf_2024_woogie_boogie.md</loc>
+    <lastmod>2025-11-06</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://www.gfelber.dev/writeups/old/hitcon_22_the_hole/</loc>
     <lastmod>2025-11-07</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
-    <loc>https://gfelber.dev/CVE/CVE-2024-1672</loc>
+    <loc>https://www.gfelber.dev/writeups/hitcon_22_the_hole</loc>
     <lastmod>2025-11-07</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
-    <loc>https://gfelber.dev/CVE/CVE-2024-2610</loc>
+    <loc>https://www.gfelber.dev/CVE/CVE-2024-1672/</loc>
+    <lastmod>2025-11-07</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://www.gfelber.dev/CVE/CVE-2024-23284/</loc>
+    <lastmod>2025-11-07</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://www.gfelber.dev/CVE/CVE-2024-2610/</loc>
     <lastmod>2025-11-07</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
