@@ -3,6 +3,10 @@
   <head>
     <meta name="description" content="```Dockerfile FROM alpine:3.22@sha256:4bcff63911fcb4448bd4fdacec207030997caf25e9bea4045fa6c8c44de311d1 RUN mkdir -p /opt/mesarthim WORKDIR /opt/mesarthim COPY share/run.sh . COPY share/mesarthim . COPY share/mesarthim_deploy . RUN touch flag RUN adduser -HD ctf RUN chown ctf:ctf flag RUN chattr +a flag USER ctf EXPOSE 5000 CMD [&quot;./run.sh&quot;] ```" />
     <meta charset="UTF-8" />
+    <link
+      rel="icon"
+      href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'%3E%3Ctext y='0.9em' fill='white' font-size='90'%3E6f%3C/text%3E%3C/svg%3E"
+    />
     <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
     <script src="/index.js"></script>
     <link rel="stylesheet" type="text/css" href="/main.css" />

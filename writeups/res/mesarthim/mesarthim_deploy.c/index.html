@@ -3,6 +3,10 @@
   <head>
     <meta name="description" content="```c int main(int argc, char *argv[]) { pid_t pid = fork(); if (pid &lt; 0) { perror(&quot;Fork failed&quot;); return 1; } if (pid == 0) { int devnull = open(&quot;/dev/null&quot;, O_RDWR); dup2(devnull, STDIN_FILENO); dup2(devnull, STDOUT_FILENO); dup2(devnull, STDERR_FILENO); close(devnull); execve(&quot;./mesarthim&quot;, NULL, NULL); perror(&quot;failed to execute server&quot;); } usleep(100000); printf(&quot;Mesarthim Deployer\n&quot;); int sock = socket(AF_INET, SOCK_STREAM, 0); if (sock == -1) { perror(&quot;socket creation failed&quot;); return 1; }" />
     <meta charset="UTF-8" />
+    <link
+      rel="icon"
+      href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'%3E%3Ctext y='0.9em' fill='white' font-size='90'%3E6f%3C/text%3E%3C/svg%3E"
+    />
     <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
     <script src="/index.js"></script>
     <link rel="stylesheet" type="text/css" href="/main.css" />

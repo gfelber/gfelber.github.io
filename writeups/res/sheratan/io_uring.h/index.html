@@ -3,6 +3,10 @@
   <head>
     <meta name="description" content="```c extern &quot;C&quot; { /******************************* * CONSTANTS                   * *******************************/ /******************************* * CUSTOM STRUCTURES           * *******************************/ // Extended completion queue entry with buffer info struct io_uring_cqe2 { __u64 user_data; __s32 res; union { struct { __u16 _pad; __u16 bid; }; __u32 flags; }; }; // Buffer registration structure struct io_uring_buf_reg2 { __u64 ring_addr; __u32 ring_entries; __u16 bgid; __u16 flags;" />
     <meta charset="UTF-8" />
+    <link
+      rel="icon"
+      href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'%3E%3Ctext y='0.9em' fill='white' font-size='90'%3E6f%3C/text%3E%3C/svg%3E"
+    />
     <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
     <script src="/index.js"></script>
     <link rel="stylesheet" type="text/css" href="/main.css" />

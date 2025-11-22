@@ -3,6 +3,10 @@
   <head>
     <meta name="description" content="```c enum sheratan_cmds { PING = 1, REBOOT = 2, BOOST_ENABLE = 3, BOOST_DISABLE = 4 }; struct sheratan_cmd { struct sheratan_cmd *next; enum sheratan_cmds cmd; struct completion done; }; struct sheratan_telemetry { float latitude; float longitude; int altitude; float velocity; float inclination; float period; }; struct sheratan_status { char name[0x10]; int time; int uptime; int signal; int latency; bool boost; struct sheratan_telemetry telemetry; }; struct sheratan_param { union { struct sherat" />
     <meta charset="UTF-8" />
+    <link
+      rel="icon"
+      href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'%3E%3Ctext y='0.9em' fill='white' font-size='90'%3E6f%3C/text%3E%3C/svg%3E"
+    />
     <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
     <script src="/index.js"></script>
     <link rel="stylesheet" type="text/css" href="/main.css" />

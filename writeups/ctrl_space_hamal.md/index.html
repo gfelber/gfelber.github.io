@@ -3,6 +3,10 @@
   <head>
     <meta name="description" content="Hamal is the first stage of the ARIES challenge. It requires exploiting a fastcgi ARM64 binary behind a lighttpd server. It makes use of the new websocket feature that allows full duplex connections to the fastcgi binary. This allows us two important exploit vectors:  1. half open TCP connections to get memory leaks (through websocket echo pings) 2. sending data even if `CONTENT_LENGTH` isn't set (allowing us to get a BOF in the `/api/boost` api) We can combine both to build a ROP Chain and get" />
     <meta charset="UTF-8" />
+    <link
+      rel="icon"
+      href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'%3E%3Ctext y='0.9em' fill='white' font-size='90'%3E6f%3C/text%3E%3C/svg%3E"
+    />
     <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
     <script src="/index.js"></script>
     <link rel="stylesheet" type="text/css" href="/main.css" />

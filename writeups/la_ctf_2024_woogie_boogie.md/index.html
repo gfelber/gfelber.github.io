@@ -3,6 +3,10 @@
   <head>
     <meta name="description" content="woogie-boogie is a dynamic non-stripped binary pwn challenge that exploits a xor swap with an OOB vulnerability, similar to boogie-woogie from dice ctf 2024.  First we use the OOB vulnerability to leak ASLR values and loop back to `_start`, we then use some xor magic to change the LSB byte of an old stack ptr to create a write gadget and ROP with a two gadget to get RCE and leak the flag (exploit at the end). There were only 3 solves during the CTF with at least 2 of them being unintended soluti" />
     <meta charset="UTF-8" />
+    <link
+      rel="icon"
+      href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'%3E%3Ctext y='0.9em' fill='white' font-size='90'%3E6f%3C/text%3E%3C/svg%3E"
+    />
     <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
     <script src="/index.js"></script>
     <link rel="stylesheet" type="text/css" href="/main.css" />
