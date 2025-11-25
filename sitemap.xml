@@ -2,7 +2,7 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
     <loc>https://www.gfelber.dev/</loc>
-    <lastmod>2025-11-23</lastmod>
+    <lastmod>2025-11-25</lastmod>
     <changefreq>weekly</changefreq>
     <priority>1.0</priority>
   </url>
@@ -13,10 +13,10 @@
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://www.gfelber.dev/writeups/res/</loc>
-    <lastmod>2025-11-06</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
+    <loc>https://www.gfelber.dev/writeups/ctrl_space_aries.md/</loc>
+    <lastmod>2025-11-22</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
   </url>
   <url>
     <loc>https://www.gfelber.dev/writeups/ctrl_space_sheratan.md/</loc>
@@ -31,16 +31,28 @@
     <priority>0.6</priority>
   </url>
   <url>
-    <loc>https://www.gfelber.dev/writeups/ctrl_space_hamal.md/</loc>
-    <lastmod>2025-11-22</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
+    <loc>https://www.gfelber.dev/writeups/res/</loc>
+    <lastmod>2025-11-06</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
   </url>
   <url>
     <loc>https://www.gfelber.dev/writeups/old/</loc>
     <lastmod>2025-11-08</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://www.gfelber.dev/writeups/old/hxp_2022_browser_insanity.md/</loc>
+    <lastmod>2025-11-06</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://www.gfelber.dev/writeups/hxp_2022_browser_insanity.md/</loc>
+    <lastmod>2025-11-06</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
   </url>
   <url>
     <loc>https://www.gfelber.dev/writeups/old/openECSC24_round1_rovermaster.md/</loc>
@@ -67,18 +79,6 @@
     <priority>0.6</priority>
   </url>
   <url>
-    <loc>https://www.gfelber.dev/writeups/old/hxp_2022_browser_insanity.md/</loc>
-    <lastmod>2025-11-06</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  <url>
-    <loc>https://www.gfelber.dev/writeups/hxp_2022_browser_insanity.md/</loc>
-    <lastmod>2025-11-06</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  <url>
     <loc>https://www.gfelber.dev/writeups/old/la_ctf_2024_woogie_boogie.md/</loc>
     <lastmod>2025-11-06</lastmod>
     <changefreq>monthly</changefreq>
@@ -91,7 +91,7 @@
     <priority>0.6</priority>
   </url>
   <url>
-    <loc>https://www.gfelber.dev/writeups/ctrl_space_aries.md/</loc>
+    <loc>https://www.gfelber.dev/writeups/ctrl_space_hamal.md/</loc>
     <lastmod>2025-11-22</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
@@ -103,7 +103,7 @@
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://www.gfelber.dev/CVE/CVE-2024-1672/</loc>
+    <loc>https://www.gfelber.dev/CVE/CVE-2024-23284/</loc>
     <lastmod>2025-11-07</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
@@ -115,7 +115,7 @@
     <priority>0.6</priority>
   </url>
   <url>
-    <loc>https://www.gfelber.dev/CVE/CVE-2024-23284/</loc>
+    <loc>https://www.gfelber.dev/CVE/CVE-2024-1672/</loc>
     <lastmod>2025-11-07</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
