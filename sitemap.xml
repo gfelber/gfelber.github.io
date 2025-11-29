@@ -2,7 +2,7 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
     <loc>https://www.gfelber.dev/</loc>
-    <lastmod>2025-11-25</lastmod>
+    <lastmod>2025-11-29</lastmod>
     <changefreq>weekly</changefreq>
     <priority>1.0</priority>
   </url>
@@ -13,58 +13,10 @@
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://www.gfelber.dev/writeups/ctrl_space_aries.md/</loc>
-    <lastmod>2025-11-22</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  <url>
-    <loc>https://www.gfelber.dev/writeups/ctrl_space_sheratan.md/</loc>
-    <lastmod>2025-11-22</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  <url>
-    <loc>https://www.gfelber.dev/writeups/ctrl_space_mesarthim.md/</loc>
-    <lastmod>2025-11-22</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  <url>
-    <loc>https://www.gfelber.dev/writeups/res/</loc>
-    <lastmod>2025-11-06</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
     <loc>https://www.gfelber.dev/writeups/old/</loc>
-    <lastmod>2025-11-08</lastmod>
+    <lastmod>2025-11-29</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://www.gfelber.dev/writeups/old/hxp_2022_browser_insanity.md/</loc>
-    <lastmod>2025-11-06</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  <url>
-    <loc>https://www.gfelber.dev/writeups/hxp_2022_browser_insanity.md/</loc>
-    <lastmod>2025-11-06</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  <url>
-    <loc>https://www.gfelber.dev/writeups/old/openECSC24_round1_rovermaster.md/</loc>
-    <lastmod>2025-11-06</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  <url>
-    <loc>https://www.gfelber.dev/writeups/openECSC24_round1_rovermaster.md/</loc>
-    <lastmod>2025-11-06</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
   </url>
   <url>
     <loc>https://www.gfelber.dev/writeups/old/hitcon_22_the_hole/</loc>
@@ -75,6 +27,18 @@
   <url>
     <loc>https://www.gfelber.dev/writeups/hitcon_22_the_hole/</loc>
     <lastmod>2025-11-07</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://www.gfelber.dev/writeups/old/hxp_2022_browser_insanity.md/</loc>
+    <lastmod>2025-11-06</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://www.gfelber.dev/writeups/hxp_2022_browser_insanity.md/</loc>
+    <lastmod>2025-11-06</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
   </url>
@@ -91,7 +55,43 @@
     <priority>0.6</priority>
   </url>
   <url>
+    <loc>https://www.gfelber.dev/writeups/old/openecsc24_round1_rovermaster.md/</loc>
+    <lastmod>2025-11-29</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://www.gfelber.dev/writeups/openecsc24_round1_rovermaster.md/</loc>
+    <lastmod>2025-11-29</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://www.gfelber.dev/writeups/ctrl_space_aries.md/</loc>
+    <lastmod>2025-11-22</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
     <loc>https://www.gfelber.dev/writeups/ctrl_space_hamal.md/</loc>
+    <lastmod>2025-11-22</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://www.gfelber.dev/writeups/ctrl_space_sheratan.md/</loc>
+    <lastmod>2025-11-22</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://www.gfelber.dev/writeups/res/</loc>
+    <lastmod>2025-11-06</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://www.gfelber.dev/writeups/ctrl_space_mesarthim.md/</loc>
     <lastmod>2025-11-22</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
@@ -103,6 +103,12 @@
     <priority>0.8</priority>
   </url>
   <url>
+    <loc>https://www.gfelber.dev/CVE/CVE-2024-1672/</loc>
+    <lastmod>2025-11-07</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
     <loc>https://www.gfelber.dev/CVE/CVE-2024-23284/</loc>
     <lastmod>2025-11-07</lastmod>
     <changefreq>monthly</changefreq>
@@ -110,12 +116,6 @@
   </url>
   <url>
     <loc>https://www.gfelber.dev/CVE/CVE-2024-2610/</loc>
-    <lastmod>2025-11-07</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  <url>
-    <loc>https://www.gfelber.dev/CVE/CVE-2024-1672/</loc>
     <lastmod>2025-11-07</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
