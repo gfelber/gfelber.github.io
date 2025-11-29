@@ -7,6 +7,30 @@
     <priority>1.0</priority>
   </url>
   <url>
+    <loc>https://www.gfelber.dev/cve/</loc>
+    <lastmod>2025-11-29</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://www.gfelber.dev/cve/cve-2024-2610/</loc>
+    <lastmod>2025-11-29</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://www.gfelber.dev/cve/cve-2024-23284/</loc>
+    <lastmod>2025-11-29</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://www.gfelber.dev/cve/cve-2024-1672/</loc>
+    <lastmod>2025-11-29</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
     <loc>https://www.gfelber.dev/writeups/</loc>
     <lastmod>2025-11-22</lastmod>
     <changefreq>weekly</changefreq>
@@ -19,14 +43,14 @@
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://www.gfelber.dev/writeups/old/hitcon_22_the_hole/</loc>
-    <lastmod>2025-11-07</lastmod>
+    <loc>https://www.gfelber.dev/writeups/old/la_ctf_2024_woogie_boogie.md/</loc>
+    <lastmod>2025-11-06</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
-    <loc>https://www.gfelber.dev/writeups/hitcon_22_the_hole/</loc>
-    <lastmod>2025-11-07</lastmod>
+    <loc>https://www.gfelber.dev/writeups/la_ctf_2024_woogie_boogie.md/</loc>
+    <lastmod>2025-11-06</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
   </url>
@@ -43,14 +67,14 @@
     <priority>0.6</priority>
   </url>
   <url>
-    <loc>https://www.gfelber.dev/writeups/old/la_ctf_2024_woogie_boogie.md/</loc>
-    <lastmod>2025-11-06</lastmod>
+    <loc>https://www.gfelber.dev/writeups/old/hitcon_22_the_hole/</loc>
+    <lastmod>2025-11-07</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
-    <loc>https://www.gfelber.dev/writeups/la_ctf_2024_woogie_boogie.md/</loc>
-    <lastmod>2025-11-06</lastmod>
+    <loc>https://www.gfelber.dev/writeups/hitcon_22_the_hole/</loc>
+    <lastmod>2025-11-07</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
   </url>
@@ -67,24 +91,6 @@
     <priority>0.6</priority>
   </url>
   <url>
-    <loc>https://www.gfelber.dev/writeups/ctrl_space_aries.md/</loc>
-    <lastmod>2025-11-22</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  <url>
-    <loc>https://www.gfelber.dev/writeups/ctrl_space_hamal.md/</loc>
-    <lastmod>2025-11-22</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  <url>
-    <loc>https://www.gfelber.dev/writeups/ctrl_space_sheratan.md/</loc>
-    <lastmod>2025-11-22</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  <url>
     <loc>https://www.gfelber.dev/writeups/res/</loc>
     <lastmod>2025-11-06</lastmod>
     <changefreq>weekly</changefreq>
@@ -97,26 +103,20 @@
     <priority>0.6</priority>
   </url>
   <url>
-    <loc>https://www.gfelber.dev/CVE/</loc>
-    <lastmod>2025-11-07</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://www.gfelber.dev/CVE/CVE-2024-1672/</loc>
-    <lastmod>2025-11-07</lastmod>
+    <loc>https://www.gfelber.dev/writeups/ctrl_space_aries.md/</loc>
+    <lastmod>2025-11-22</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
-    <loc>https://www.gfelber.dev/CVE/CVE-2024-23284/</loc>
-    <lastmod>2025-11-07</lastmod>
+    <loc>https://www.gfelber.dev/writeups/ctrl_space_sheratan.md/</loc>
+    <lastmod>2025-11-22</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
-    <loc>https://www.gfelber.dev/CVE/CVE-2024-2610/</loc>
-    <lastmod>2025-11-07</lastmod>
+    <loc>https://www.gfelber.dev/writeups/ctrl_space_hamal.md/</loc>
+    <lastmod>2025-11-22</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
   </url>
